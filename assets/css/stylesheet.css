@@ -9,11 +9,12 @@
     --primarycolour:rgb(221, 236, 241);
     --secondarycolor:rgb(39, 47, 161);
     --tertiarycolor:rgb(121, 249, 249);
+}
 
-}
+
 body{
-    background:var(--primarycolour);
-}
+    background:var(--primarycolour);}
+  
 .header{
     padding:20px;
     font-family: 'Courier New', Courier, monospace;
@@ -26,7 +27,9 @@ body{
     }
 
     @media screen and (min-width = 742px)
-{ * {flex-direction: row;}
+{ * { display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;}
 } 
     
 .header h1{
@@ -48,10 +51,21 @@ body{
 .header div ul li{
     display:inline-block;
     margin-left: 20px;
-    margin-right: 15px;
     font-size: 20px;
-    justify-content: center;
-    align-items:center;
     margin-top:-10px;
+}
+.aside
+{
+margin-bottom: 20px;
+margin-top:20px;
+display: inline-flex;
+height:300px;
 
+}
+.right{
+    margin-left: 10px;
+    max-height: 50px;
+    border-color: black;
+border-width: 5px;
+border-style: double;
 }
