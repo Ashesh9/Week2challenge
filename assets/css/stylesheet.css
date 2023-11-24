@@ -2,6 +2,7 @@
     box-sizing:border-box;
     padding: 0;
     margin:0;
+
     
 }
 
@@ -28,12 +29,7 @@ body{
     border-top: 5px;
     }
 
-    @media screen and (max-width = 742px)
-{ * { display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;}
-} 
-    
+
 .header h1{
     font-size : 40px ;
     font-style: italic;
@@ -83,12 +79,14 @@ display: inline-flex;
 height:300px;
 color:var(--secondarycolor);
 align-items: center;
-background-color: var(--tertiarycolor);}
+background-color: var(--tertiarycolor);
+width:100%;}
 
 .work
 {
 padding-bottom: 00px;
 padding-top:20px;
+width:100%;
 display:inline-flex;
 height: 800px;
 color:var(--secondarycolor);
@@ -215,3 +213,10 @@ p{  float:right;
     border-top: 10px;
     text-decoration: underline;
 }
+@media screen and (max-width = 1500px)
+{   *, .work ,.w{
+display: flex;
+flex-direction: column;    
+}
+} 
+   
