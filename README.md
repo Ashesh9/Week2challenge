@@ -15,3 +15,5 @@ Design a personal webpage to build a portfolio, accessible by active employers.
 
 ## My webpage layout
 
+#### Week2challenge\assets\images\My page 1.png
+#### Week2challenge\assets\images\My page 2.png
