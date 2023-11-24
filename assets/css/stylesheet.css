@@ -214,9 +214,21 @@ p{  float:right;
     text-decoration: underline;
 }
 @media screen and (max-width = 1500px)
-{   *, .work ,.w{
-display: flex;
-flex-direction: column;    
-}
-} 
-   
+    {   *, .work ,.w{
+                 display: flex;
+                 flex-direction: column;    
+                    }
+    } 
+.horiseon
+{
+    border-color: rgb(9, 100, 12);
+    background-color: rgb(229, 255, 0);
+    box-shadow: #8d2d15;    
+    box-shadow: 3px 0px 0px 3px;
+}   
+.horiseon:hover
+{
+    border-color: rgb(68, 9, 100);
+    background-color: rgb(255, 0, 89);
+    box-shadow: #8d1515;    
+    box-shadow: 5px 0px 0px 5px;}
