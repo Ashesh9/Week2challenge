@@ -17,3 +17,11 @@ Design a personal webpage to build a portfolio, accessible by active employers.
 
 #### Week2challenge\assets\images\My page 1.png
 #### Week2challenge\assets\images\My page 2.png
+
+## Image Resources
+#### Chess image: Google images/ Chess - Play Online Chess at Coolmath Games. (www.coolmathgames.com)
+#### Board Games: Google images/Twinkl Board Games - Twinkl+ - Twinkl
+(www.twinkl.ca)
+#### Switch image-5 Best Video Games To Play Over The Christmas Holidays (oscarmini.com)
+(oscarmini.com)
+#### Horision: Gitlab repo
