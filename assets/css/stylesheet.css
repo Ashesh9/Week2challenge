@@ -5,10 +5,10 @@
    }
 
 :root{
-    primarycolour:rgb(221, 236, 241);
-    secondarycolor:rgb(39, 47, 161);
-    tertiarycolor:rgb(121, 249, 249);
-    bordercolor:#0000ff;  
+  --primarycolour:rgb(221, 236, 241);
+  --secondarycolor:rgb(39, 47, 161);
+  --tertiarycolor:rgb(121, 249, 249);
+  --bordercolor:#0000ff;  
 }
 body{
     background:var(--primarycolour);}
