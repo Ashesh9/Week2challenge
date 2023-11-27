@@ -216,7 +216,7 @@ p{ text-align: center;
 @media screen and (max-width = 1500px)
     {   *, .work ,.w{
                  display: flex;
-                 flex-direction: column;    p
+                 flex-direction: column;
                     }
     } 
 .horiseon
